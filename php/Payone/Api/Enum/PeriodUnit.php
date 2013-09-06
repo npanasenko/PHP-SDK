@@ -30,20 +30,9 @@
  * @license         <http://www.gnu.org/licenses/> GNU General Public License (GPL 3)
  * @link            http://www.noovias.com
  */
-class Payone_Api_Enum_RequestType
+class Payone_Api_Enum_PeriodUnit
 {
-    const PREAUTHORIZATION = 'preauthorization';
-    const AUTHORIZATION = 'authorization';
-    const CAPTURE = 'capture';
-    const REFUND = 'refund';
-    const DEBIT = 'debit';
-    const CHECK3DS = '3dscheck';
-    const ADDRESSCHECK = 'addresscheck';
-    const CONSUMERSCORE = 'consumerscore';
-    const BANKACCOUNTCHECK = 'bankaccountcheck';
-    const CREDITCARDCHECK = 'creditcardcheck';
-    const GETINVOICE = 'getinvoice';
-    const CREATEACCESS = 'createaccess';
-    const UPDATEACCESS = 'updateaccess';
-    const VAUTHORIZATION = 'vauthorization';
+    const YEAR = 'Y';
+    const MONTH = 'M';
+    const DAY = 'D';
 }

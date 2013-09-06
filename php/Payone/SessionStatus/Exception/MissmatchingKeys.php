@@ -13,8 +13,8 @@
  * needs please refer to http://www.payone.de for more information.
  *
  * @category        Payone
- * @package         Payone_Api
- * @subpackage      Enum
+ * @package         Payone_SessionStatus
+ * @subpackage      Exception
  * @copyright       Copyright (c) 2012 <info@noovias.com> - www.noovias.com
  * @author          Matthias Walter <info@noovias.com>
  * @license         <http://www.gnu.org/licenses/> GNU General Public License (GPL 3)
@@ -24,26 +24,14 @@
 /**
  *
  * @category        Payone
- * @package         Payone_Api
- * @subpackage      Enum
+ * @package         Payone_SessionStatus
+ * @subpackage      Exception
  * @copyright       Copyright (c) 2012 <info@noovias.com> - www.noovias.com
  * @license         <http://www.gnu.org/licenses/> GNU General Public License (GPL 3)
  * @link            http://www.noovias.com
  */
-class Payone_Api_Enum_RequestType
+class Payone_SessionStatus_Exception_MissmatchingKeys
+    extends Payone_SessionStatus_Exception_Abstract
 {
-    const PREAUTHORIZATION = 'preauthorization';
-    const AUTHORIZATION = 'authorization';
-    const CAPTURE = 'capture';
-    const REFUND = 'refund';
-    const DEBIT = 'debit';
-    const CHECK3DS = '3dscheck';
-    const ADDRESSCHECK = 'addresscheck';
-    const CONSUMERSCORE = 'consumerscore';
-    const BANKACCOUNTCHECK = 'bankaccountcheck';
-    const CREDITCARDCHECK = 'creditcardcheck';
-    const GETINVOICE = 'getinvoice';
-    const CREATEACCESS = 'createaccess';
-    const UPDATEACCESS = 'updateaccess';
-    const VAUTHORIZATION = 'vauthorization';
+
 }
